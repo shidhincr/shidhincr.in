@@ -594,7 +594,7 @@ body,html {
 }
 .ext-link {
 cursor: pointer;
-margin: 10px 50px;
+margin: 10px 30px;
 font-size: 15px;
 text-decoration: underline;
 }
@@ -656,14 +656,15 @@ border-radius: 5px;
 }
 .content .sub-heading {
  position: absolute;
-left: 175px;
+left: 180px;
 padding-right: 200px;
 padding-top: 15px;
 line-height: 40px;
 }
 .content .text {
  font-size: 25px;
- color: rgb(87, 133, 95);
+ color: rgb(100, 105, 101);
+ text-shadow: 1px 1px #fff;
 }
 .content .round {
  position: absolute;
@@ -786,10 +787,10 @@ line-height: 40px;
   </head>
 
   <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
-    <div class='header'>Hey, I&#39;m Shidhin C R</div> 
-   <div class='content'>
+    <h1 class='header'>Hey, I&#39;m Shidhin C R</h1> 
+   <h2 class='content'>
      <div class='links'>
-       <div class='ext-link'>
+     	<div class='ext-link'>
           <a href='http://www.linkedin.com/in/shidhincr'>LinkedIn</a>
        </div>
 		<div class='ext-link'>
@@ -805,12 +806,12 @@ line-height: 40px;
           <a href='https://www.facebook.com/shidhincr'>Facebook</a>
        </div>
         <div class='m-top'>
-       		<div class='ext-link'><a href='http://shidhincr.github.io/Shidhin_Resume_4_Years_UI_Engineer.pdf'>Resume : PDF</a></div>
-       		<div class='ext-link'><a href='http://shidhincr.github.io/Shidhin_Resume_4_Years_UI_Engineer.doc'>Resume : DOC</a></div>
+       		<div class='ext-link'><a href='https://dl.dropboxusercontent.com/u/32430642/Shidhin_Resume_4_Years_UI_Engineer.pdf'>Resume : PDF</a></div>
+       		<div class='ext-link'><a href='https://dl.dropboxusercontent.com/u/32430642/Shidhin_Resume_4_Years_UI_Engineer.doc'>Resume : DOC</a></div>
      	</div>
      </div>
     <div class='round mt2 ml2'>
-      <img src='https://secure.gravatar.com/avatar/d35b3638f7b2a8146260c66baf14d102?size=220'/>
+      <img src='http://en.gravatar.com/userimage/9789987/11f31a33e0d8975b14208dd9e38fe157.jpg'/>
     </div>
      <div class='sub-heading text'>
      I work as a front end developer and I love to create high performance web applications and websites.
@@ -847,7 +848,7 @@ line-height: 40px;
      <div class='more-info text'>
        For more information, checkout my Resume.
      </div>
-  </div>
+  </h2>
     <script>
   (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

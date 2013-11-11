@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #000;
 }
 body,html {
  height: 100%;
@@ -13,7 +13,7 @@ body,html {
 }
 .ext-link {
 cursor: pointer;
-margin: 10px 50px;
+margin: 10px 30px;
 font-size: 15px;
 text-decoration: underline;
 }
@@ -39,7 +39,8 @@ font-family: 'Sancreek';
  min-height: 100%;
  margin: 0 auto;
  position: relative;
-border: 2px solid #ccc;
+border: 1px solid #fff;
+box-shadow: 0 0 20px 5px #ccc;
 background: url('https://dl.dropboxusercontent.com/u/32430642/background.png');
 }
 
@@ -75,14 +76,15 @@ border-radius: 5px;
 }
 .content .sub-heading {
  position: absolute;
-left: 175px;
+left: 180px;
 padding-right: 200px;
 padding-top: 15px;
 line-height: 40px;
 }
 .content .text {
  font-size: 25px;
- color: rgb(87, 133, 95);
+ color: rgb(100, 105, 101);
+ text-shadow: 1px 1px #fff;
 }
 .content .round {
  position: absolute;
@@ -103,8 +105,8 @@ line-height: 40px;
   height: 210px;
   width: 210px;
   border-radius: 50%;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: -5px;
+  margin-left: -5px;
   z-index:100;
   background-color: #fff;
 }
@@ -127,7 +129,7 @@ line-height: 40px;
   height: 110px;
   position: absolute;
   margin-top: -155px;
-  left: 50px;
+  left: 40px;
   border-radius: 50%;
 }
 .mt2 {
